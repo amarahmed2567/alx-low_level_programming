@@ -1,15 +1,12 @@
 #include <stdio.h>
 
-/*
- * * print with puts
- * * don't wory
- * 
-*/
-int main()
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-/*var Name*/
-char Name1[] = "\"Programming is like building a multilingual puzzle";
-/*get it Name*/
-puts(Name1);
- return 0;
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
