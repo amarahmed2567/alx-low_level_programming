@@ -1,13 +1,13 @@
-#include <stdio.h>
+#include "main.h"
 
 /*
   *Functions With c
 */
-int main(){
+int main(void){
 
 //print _putchar
 
-printf("_putchar\n");
+_putchar("_/n");
 
 return 0;
 
