@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include "main.h"
-void print_alphabet(void){
-    
-    /*
-    *Print Alphabet with 28char
-    *end with new line 
-    */
-    
+/*
+  *Print Alphabet with 28char
+  *end with new line 
+*/
+void print_alphabet(void){    
 char c;
 for (c = 'a'; c <= 'z'; ++c){
     _putchar(c);
