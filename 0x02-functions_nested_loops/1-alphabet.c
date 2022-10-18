@@ -1,13 +1,18 @@
-#include <stdio.h>
 #include "main.h"
+
 /**
-  *Print Alphabet with 28char
-  *end with new line 
-**/
-void print_alphabet(void){    
-char c;
-for (c = 'a'; c <= 'z'; ++c){
-_putchar(c);
-}
-_putchar('\n');
+ * print_alphabet - prints the alphabet in lowercase, followed by a new line.
+ *
+ */
+void print_alphabet(void)
+{
+	char ch;
+
+	ch = 'a';
+	while (ch <= 'z')
+	{
+		_putchar(ch);
+		ch++;
+	}
+	_putchar('\n');
 }
