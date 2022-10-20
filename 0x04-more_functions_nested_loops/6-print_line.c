@@ -1,19 +1,27 @@
 #include "main.h"
 
 /**
- * more_numbers - entry point
+ * print_line - entry point
  *
- * Description: Prints the numbers with _putchar
- *
+ * Description: Prints lines
+ *@n: number of lines
  * Return: void
  */
 
 void print_line(int n)
 {
-	int n;
-	for (n = 1; n <= 10; n++)
-    {
-        _putchar('_');
-    }
-    	_putchar('\n');
+	int num_lines;
+
+	if (n <= 0)
+	{
+		_putchar('\n');
+	}
+	else
+	{
+		for (num_lines = 1; num_lines <= n; num_lines++)
+		{
+			_putchar('_');
+		}
+		_putchar('\n');
+	}
 }
