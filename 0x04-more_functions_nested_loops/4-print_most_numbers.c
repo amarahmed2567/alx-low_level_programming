@@ -15,15 +15,14 @@ void print_numbers(void)
 	for (i = '0'; i <= '9'; i++)
 	{
         if(i == '2'){
-            break;
+            ;
         }
         else if(i=='4'){
-            break;
+            ;
         }
         else{
-            continue;
+            _putchar(i);
         }
-		_putchar(i);
 	}
 	_putchar('\n');
 }
