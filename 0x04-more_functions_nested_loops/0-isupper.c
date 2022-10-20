@@ -8,10 +8,12 @@
  */
 int main()
 {
+    char ch = 'A';
 
-if(_isupper(c)){
+if(_isupper(ch)){
     return (1);
-}else{
+}
+else{
     return (0);
 }
 
