@@ -1,10 +1,14 @@
+#include "main.h"
 /**
  * main - check the code 
  *
  * Return: Always 0.
 */
+
 void reset_to_98(int *n){
-    int x = 98;
-    *n = &x ;
-    return 0;
+
+    *n = 98 ;
+
+return 0;
+
 }
