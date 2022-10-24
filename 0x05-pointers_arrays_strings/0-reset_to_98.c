@@ -1,14 +1,11 @@
 #include "main.h"
+// Author By Eng Ismail
+// URL = https://github.com/macaanto14
 /**
- * main - check the code 
- *
- * Return: Always 0.
-*/
-
-void reset_to_98(int *n){
-
-    *n = 98 ;
-
-return 0;
-
+ 
+ * @n: An integer input pointer
+ */
+void reset_to_98(int *n)
+{
+	*n = 98;
 }
